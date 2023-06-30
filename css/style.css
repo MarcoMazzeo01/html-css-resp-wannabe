@@ -128,11 +128,32 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (min-width: 768px) {
+ /* tablet */
+ @media screen and (max-width: 768px) {
     .container {
       width: 100%;
     }
   }
 
 
-  
+  /* mobile */
+  @media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .lessons .col {
+        width: 100%
+    }
+
+    .lessons .col .card {
+        margin-bottom: 80px;
+    }
+
+
+  }
