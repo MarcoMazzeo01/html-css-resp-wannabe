@@ -129,7 +129,7 @@ img {
  ************************************************/
 
  /* tablet */
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px), screen and (orientation: landscape) {
     .container {
       width: 100%;
     }
