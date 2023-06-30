@@ -129,11 +129,11 @@ img {
  ************************************************/
 
  /* tablet */
- @media screen and (max-width: 768px), screen and (orientation: landscape) {
+ @media screen and (max-width: 768px), screen and (max-width: 1024px) and (orientation: landscape), screen and (orientation: portrait) and (max-width: 820px) {
     .container {
       width: 100%;
     }
-  }
+}
 
 
   /* mobile */
